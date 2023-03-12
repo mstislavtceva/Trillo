@@ -21,12 +21,18 @@
 }
 
 .sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   flex: 0 0 18%;
   background-color: var(--color-grey-dark-1);
 }
 
 .hotel-view {
-  flex: 1;
   background-color: var(--color-white);
+
+  // Test
+  flex: 1;
+  height: 80rem;
   background-color: yellow;
 }
